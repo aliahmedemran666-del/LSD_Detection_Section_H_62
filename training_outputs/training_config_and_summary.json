@@ -1,0 +1,27 @@
+{
+  "image_size": [
+    224,
+    224
+  ],
+  "batch_size": 32,
+  "seed": 42,
+  "initial_epochs": 15,
+  "fine_tune_epochs": 10,
+  "fine_tuning_enabled": true,
+  "fine_tune_last_n": 30,
+  "class_names": [
+    "Healthy",
+    "LSD_Affected"
+  ],
+  "class_weights": {
+    "0": 1.0,
+    "1": 1.0
+  },
+  "models_completed": [
+    "EfficientNetB0",
+    "MobileNetV2",
+    "ResNet50",
+    "VGG16"
+  ],
+  "best_model_by_f1": "ResNet50"
+}
